@@ -180,6 +180,7 @@ async function uploadImage(file) {
 | `autoRotate` | Reads EXIF data on the image to determine orientation | true |
 | `debug` | console.log image update operations | false |
 | `mimeType` | specify image output type other than jpeg  | 'image/jpeg' |
+| `a` | background color for transparencies  | '#fff' |
 
 ### Outputs
 

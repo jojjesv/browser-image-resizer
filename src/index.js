@@ -6,7 +6,8 @@ const DEFAULT_CONFIG = {
   maxHeight: 600,
   autoRotate: true,
   debug: false,
-  mimeType: 'image/jpeg'
+  mimeType: 'image/jpeg',
+  backgroundColor: '#fff'
 };
 
 export function readAndCompressImage(file, userConfig) {
